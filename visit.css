@@ -1,0 +1,23 @@
+body {
+    background-image: url('background.jpeg');
+    opacity: 0.5;
+    /* You can also use background-size, background-position, and other properties to adjust the background */
+    background-size: cover;
+    background-position: center;
+    /* Specify a background color in case the image is not available or doesn't cover the entire screen */
+    background-color: #f0f0f0;
+    /* Make sure the background image covers the entire viewport */
+    height: 100vh;
+    margin: 0;
+    
+   
+}
+#map{
+    display:flex;
+    justify-content:center;
+
+}
+#box{
+    background-color: rgb(9, 169, 30);
+    padding:25px;
+}

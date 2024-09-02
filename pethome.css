@@ -1,0 +1,27 @@
+body{
+    background:linear-gradient(60deg,rgb(46, 187, 46),rgb(77, 77, 197));
+    
+}
+#main{
+    color:white;
+    text-align: center;
+}
+#one{
+    display:flex;
+    justify-content: center;
+    
+}
+.box{
+    color:brown;
+    background-color:bisque;
+    padding:30px;
+    text-align:center;
+    width:30%;
+    border-radius:20px;
+    justify-content: center;
+    
+    
+}
+div{
+    justify-content:center;
+}

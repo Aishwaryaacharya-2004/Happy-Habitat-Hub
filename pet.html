@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet</title>
+    <link rel="stylesheet" href="pet.css">
+    <script src="pet.js"></script>
+</head>
+<body class="body">
+    <div id="heading"><h1 class="first">
+        <span class="first">P</span>ETS
+    </h1></div>
+<div id="outer">
+    <div id="one">
+        <h2 class="cat">CATS</h2>
+        <br><hr>
+        <img src="https://hips.hearstapps.com/hmg-prod/images/cute-cat-photos-1593441022.jpg?crop=0.670xw:1.00xh;0.167xw,0&resize=640:*" width="250px" height="250px" id="image" onclick="img1()">
+        <br>
+        <br>
+        <button id="like" onclick="count()" width="50px" height="50px">&#10084</button><br>
+        <p id="count"></p>
+        <button id="but" onclick="create()"> READ MORE</button>
+        <script>
+            document.getElementById("but").addEventListener('click',function(){
+                this.style.display='none';
+            })
+        </script>
+        <p id="create1"></p>
+    </div>
+</div>
+<div id="outer">
+    <div id="one">
+        <h2 class="cat">Dogs</h2>
+        <br><hr>
+        <img src="dog1.jpeg" width="250px" height="250px" id="image1" onclick="image2()"/>
+        <br>
+        <br>
+        <button id="like1" onclick="count1()" width="50px" height="50px">&#10084</button><br>
+        <p id="count1"></p>
+        <button id="butt" onclick="create1()"> READ MORE</button>
+        <script>
+            document.getElementById("butt").addEventListener('click',function(){
+                this.style.display='none';
+            })
+        </script>
+        <p id="createnew"></p>
+</div>
+</div>
+
+    
+    <div id="form1">
+        <marquee direction="right">Fill The Form If You want to Adopt</marquee>
+        
+<h2> TO ADOPT CLICK THE BELOW BUTTON</h2>
+<button id="visit" onclick="window.location.href='visit.html';">ADOPT</button>
+        
+    </div>
+</div>
+
+<br>
+</body>
+</html>
