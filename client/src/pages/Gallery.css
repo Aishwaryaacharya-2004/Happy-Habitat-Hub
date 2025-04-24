@@ -1,0 +1,76 @@
+.home-container {
+    text-align: center;
+    padding: 30px;
+    transition: background 0.5s ease-in-out;
+}
+
+/* 🌿 Beautiful Green Gradient Background */
+.home-container.empty {
+    background: linear-gradient(to bottom, #d4fc79, #a8e063, #56ab2f)!important; /* Light to deep green */
+}
+
+.home-container.filled {
+    background: linear-gradient(to bottom, #c2e59c, #76b947, #355e3b)!important; /* Softer natural green shades */
+}
+
+/* 🐶 Pet-friendly Title Styling */
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2f3e1d; /* Deep green */
+    transition: transform 0.3s, color 0.3s;
+}
+
+.title:hover {
+    transform: scale(1.1);
+    color: #ffcc00; /* Warm golden highlight */
+}
+
+/* 🍃 Subtitle Styling with Green Shades */
+.subtitle {
+    font-size: 1.2rem;
+    color: #3c6e47; /* Rich green for contrast */
+}
+
+/* 🏡 Responsive Grid for Pet Cards */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* 🚨 No Pets Message */
+.no-pets {
+    color: #ff0000;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ⏳ Loading Message */
+.loading {
+    font-size: 18px;
+    color: #ff5733;
+    font-style: italic;
+}
+
+/* ❤️ Like Button Hover Effect */
+.like-button {
+    background: #76b947; /* Earthy green */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.like-button:hover {
+    background: #ffcc00; /* Golden effect */
+    transform: scale(1.1);
+    color: #2f3e1d;
+}

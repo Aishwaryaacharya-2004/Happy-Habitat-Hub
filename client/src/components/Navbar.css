@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
