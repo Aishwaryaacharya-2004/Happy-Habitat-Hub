@@ -1,6 +1,7 @@
 Happy Habitat Hub 🐾 is a green‑tech platform that connects pets with loving owners through an interactive, easy‑to‑use ecosystem—making every step from search to snuggle beautifully seamless.
 
 How we simplify adoption
+
 1.🌍 Discover nearby stores & shelters
 • Geo‑smart map pinpoints reputable pet stores and adoption centers within your chosen radius.
 
