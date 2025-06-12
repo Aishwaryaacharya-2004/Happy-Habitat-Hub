@@ -23,7 +23,7 @@ const UploadPet = () => {
     formData.append("description", description);
 
     try {
-      await axios.post("http://localhost:5000/api/pets/upload", formData, {
+      await axios.post("path", formData, {
         headers: { Authorization: `Bearer ${token}` },
       });
 
