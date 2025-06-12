@@ -18,7 +18,7 @@ const Login = () => {
 
     setLoading(true);
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/login", { email, password });
+      const res = await axios.post("path", { email, password });
       localStorage.setItem("token", res.data.token); 
       sessionStorage.setItem("isLoggedIn", "true"); // Use sessionStorage for live UI updates
       window.dispatchEvent(new Event("storage")); // Force navbar to update
