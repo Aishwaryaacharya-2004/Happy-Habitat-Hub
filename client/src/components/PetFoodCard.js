@@ -11,7 +11,7 @@ const PetFoodCard = ({ food }) => {
     try {
       setAdding(true);
       await axios.post(
-        `http://localhost:5000/api/cart/add/${food._id}`,
+        `path`,
         {},
         { headers: { Authorization: `Bearer ${token}` } }
       );
