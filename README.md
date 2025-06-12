@@ -10,15 +10,26 @@ How we simplify adoption
 
 3.📧 Real‑time email alerts
 • The moment a pet fitting your criteria appears, you receive an email with store details, photos and one‑tap directions.
+![Project Screenshot](assets/adopt.png)
+
+![Project Screenshot](assets/mail.jpeg)
+
+![Project Screenshot](assets/location.jpeg)
 
 4.📸 Upload & Like gallery
 • Share pictures of your own pets, browse community uploads and tap ❤️if u like the image.
+![Project Screenshot](assets/gallery.png)
+
+![Project Screenshot](upload/upload.png)
 
 5.🛒 Eco‑friendly food & gear cart
 • Add vet‑approved food and toys in one click; adjust quantities or remove items with a ✕ before checkout.
 
 6.✅ Soft‑glass Cart & Buy Now
 • A sleek, glassmorphic cart totals everything, and a single “Buy Now” button completes the purchase—confetti included!
+![Project Screenshot](assets/cart.png)
+
+![Project Screenshot](assets/shop.png)
 
 7.🤝 Community, not just commerce
 • Track your likes, adoptions and purchases in My Habitat Timeline and connect with fellow pet lovers in a safe, supportive space.
