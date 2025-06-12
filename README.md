@@ -18,9 +18,9 @@ How we simplify adoption
 
 4.📸 Upload & Like gallery
 • Share pictures of your own pets, browse community uploads and tap ❤️if u like the image.
-![Project Screenshot](assets/gallery.png)
+![Project Screenshot](assets/gallery2.png)
 
-![Project Screenshot](upload/upload.png)
+![Project Screenshot](assets/upload.png)
 
 5.🛒 Eco‑friendly food & gear cart
 • Add vet‑approved food and toys in one click; adjust quantities or remove items with a ✕ before checkout.
