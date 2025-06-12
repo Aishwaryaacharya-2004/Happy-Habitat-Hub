@@ -37,7 +37,7 @@ const Adopt = () => {
     setStores([]);
 
     try {
-      const response = await axios.post("http://localhost:5000/api/adopt", formData);
+      const response = await axios.post("path", formData);
       setLoading(false);
 
       if (response.status === 200) {
