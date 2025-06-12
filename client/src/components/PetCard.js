@@ -13,7 +13,7 @@ const PetCard = ({ pet }) => {
     }
 
     try {
-      const response = await fetch(`http://localhost:5000/api/pets/like/${pet._id}`, {
+      const response = await fetch(`path`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
