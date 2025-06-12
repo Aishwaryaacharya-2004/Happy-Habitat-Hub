@@ -17,7 +17,7 @@ const Home = () => {
     }
 
     axios
-      .get("http://localhost:5000/api/pets", {
+      .get("path", {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then((res) => setPets(res.data))
